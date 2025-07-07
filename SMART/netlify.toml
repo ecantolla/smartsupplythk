@@ -1,0 +1,12 @@
+# Este comando le dice a Netlify que tu sitio web real está DENTRO de la carpeta 'public'.
+# Es la única carpeta que se publicará.
+[build]
+  publish = "public"
+  command = ""
+
+# Esta es la regla mágica que soluciona el error "Page Not Found".
+# Redirige todas las visitas a tu único archivo index.html, permitiendo que React maneje la navegación.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
