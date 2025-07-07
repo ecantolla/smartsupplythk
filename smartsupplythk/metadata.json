@@ -1,0 +1,6 @@
+{
+  "name": "Smart Supply",
+  "description": "Smart Supply es una aplicación inteligente diseñada para automatizar y optimizar el abastecimiento de productos para tiendas minoristas. Calcula cantidades de pedido óptimas basadas en datos históricos de ventas y parámetros de inventario, garantizando la disponibilidad del producto.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
