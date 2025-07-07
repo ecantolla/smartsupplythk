@@ -56,8 +56,8 @@ const ResultsTable: React.FC<ResultsTableProps> = ({ results }) => {
                 <th
                   key={header}
                   scope="col"
-                  className={`sticky top-0 z-10 bg-slate-100 px-2 py-3 text-sm font-bold text-slate-600 uppercase tracking-wider align-middle break-words text-center`}
-                  style={{ maxWidth: "120px" }}
+                  className={`sticky top-0 z-10 bg-slate-100 px-1 py-1 text-xs font-medium text-slate-600 uppercase tracking-tight align-middle break-words text-center`}
+                  style={{ maxWidth: "90px" }}
                   title={header}
                 >
                   {header}
